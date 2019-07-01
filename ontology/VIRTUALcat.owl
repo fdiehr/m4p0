@@ -706,7 +706,13 @@ Mehrfachnennung möglich</rdfs:comment>
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
-    
+
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+
 
 
     <!-- http://purl.org/dc/terms/audience -->
@@ -1550,7 +1556,15 @@ Werkzeuge sind physische und digitale Werkzeuge, die von Akteur_innen genutzt we
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     </owl:Class>
     
+    
+    
+    <!-- https://www.museum4punkt0.de/catalogue/ontology/RDFGraph -->
 
+    <owl:Class rdf:about="https://www.museum4punkt0.de/catalogue/ontology/RDFGraph">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </owl:Class>
+    
+    
 
     <!-- https://www.museum4punkt0.de/catalogue/ontology/Digitalfotografie -->
 
